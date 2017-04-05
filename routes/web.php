@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/twitter-inspector', function () {
+    return view('twitter-inspector');
+});
+
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');

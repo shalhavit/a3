@@ -179,6 +179,7 @@ return [
 
         Barryvdh\Debugbar\ServiceProvider::class,
         Mbarwick83\TwitterApi\TwitterApiServiceProvider::class,
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
     ],
 
     /*
@@ -230,6 +231,7 @@ return [
 
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'TwitterApi'    => Mbarwick83\TwitterApi\Facades\TwitterApi::class,
+
     ],
 
 ];
