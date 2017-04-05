@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5c7714d33195cce3d4b47c66a21a3a9",
+    "content-hash": "0a54de55afabcb4807a04937eb7aee15",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -291,16 +291,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.16",
+            "version": "v5.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "6cf379ec34d08bcdc9c7183e369a8fdf04ade80d"
+                "reference": "f7675d59e3863a58ecdff1a5ee1dcd0cff788f4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6cf379ec34d08bcdc9c7183e369a8fdf04ade80d",
-                "reference": "6cf379ec34d08bcdc9c7183e369a8fdf04ade80d",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f7675d59e3863a58ecdff1a5ee1dcd0cff788f4b",
+                "reference": "f7675d59e3863a58ecdff1a5ee1dcd0cff788f4b",
                 "shasum": ""
             },
             "require": {
@@ -416,7 +416,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-03-21T19:34:41+00:00"
+            "time": "2017-04-03T13:07:39+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -619,6 +619,60 @@
                 "debugbar"
             ],
             "time": "2017-01-05T08:46:19+00:00"
+        },
+        {
+            "name": "mbarwick83/twitter-api",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mbarwick83/twitter-api.git",
+                "reference": "4bdb219809cde31908954b6f964711ad53be039b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mbarwick83/twitter-api/zipball/4bdb219809cde31908954b6f964711ad53be039b",
+                "reference": "4bdb219809cde31908954b6f964711ad53be039b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mbarwick83\\TwitterApi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Barwick",
+                    "email": "mike@barwickandco.com"
+                }
+            ],
+            "description": "Laravel 5.1 wrapper for the most popular PHP library for use with the Twitter OAuth REST API. https://github.com/abraham/twitteroauth",
+            "homepage": "https://github.com/mbarwick83/twitter-api",
+            "keywords": [
+                "api",
+                "laravel",
+                "oauth",
+                "rest",
+                "twitter"
+            ],
+            "time": "2015-12-16T01:07:26+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2693,16 +2747,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.17",
+            "version": "5.7.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "68752b665d3875f9a38a357e3ecb35c79f8673bf"
+                "reference": "69c4f49ff376af2692bad9cebd883d17ebaa98a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/68752b665d3875f9a38a357e3ecb35c79f8673bf",
-                "reference": "68752b665d3875f9a38a357e3ecb35c79f8673bf",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/69c4f49ff376af2692bad9cebd883d17ebaa98a1",
+                "reference": "69c4f49ff376af2692bad9cebd883d17ebaa98a1",
                 "shasum": ""
             },
             "require": {
@@ -2771,7 +2825,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-19T16:52:12+00:00"
+            "time": "2017-04-03T02:22:27+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
