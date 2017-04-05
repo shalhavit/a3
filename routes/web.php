@@ -11,12 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'RenderController');
 
-Route::get('/twitter-inspector', function () {
-    return view('twitter-inspector');
-});
+if(config('app.env') == 'local') {
+    Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+}
 
-Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+Route::get('/inspector', 'InspectorController@getTwitterUserTimeline');
+
+Route::post('tweet', ['as'=>'post.tweet','uses'=>'InspectorController@postNewTweet']);

@@ -178,8 +178,8 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Barryvdh\Debugbar\ServiceProvider::class,
-        Mbarwick83\TwitterApi\TwitterApiServiceProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
+        'Thujohn\Twitter\TwitterServiceProvider',
     ],
 
     /*
@@ -230,8 +230,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
-        'TwitterApi'    => Mbarwick83\TwitterApi\Facades\TwitterApi::class,
-
+        'Twitter' => 'Thujohn\Twitter\Facades\Twitter',
     ],
 
 ];

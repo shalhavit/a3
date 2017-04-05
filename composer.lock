@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e7e5bda1b49108ac93408b087efaee5",
+    "content-hash": "bc6f4bc2a486b21a2b68dcdfd7453694",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -619,60 +619,6 @@
                 "debugbar"
             ],
             "time": "2017-01-05T08:46:19+00:00"
-        },
-        {
-            "name": "mbarwick83/twitter-api",
-            "version": "1.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mbarwick83/twitter-api.git",
-                "reference": "4bdb219809cde31908954b6f964711ad53be039b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mbarwick83/twitter-api/zipball/4bdb219809cde31908954b6f964711ad53be039b",
-                "reference": "4bdb219809cde31908954b6f964711ad53be039b",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "~5.1",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "4.*",
-                "scrutinizer/ocular": "~1.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Mbarwick83\\TwitterApi\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mike Barwick",
-                    "email": "mike@barwickandco.com"
-                }
-            ],
-            "description": "Laravel 5.1 wrapper for the most popular PHP library for use with the Twitter OAuth REST API. https://github.com/abraham/twitteroauth",
-            "homepage": "https://github.com/mbarwick83/twitter-api",
-            "keywords": [
-                "api",
-                "laravel",
-                "oauth",
-                "rest",
-                "twitter"
-            ],
-            "time": "2015-12-16T01:07:26+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1981,6 +1927,92 @@
                 "dump"
             ],
             "time": "2017-03-12T16:07:05+00:00"
+        },
+        {
+            "name": "themattharris/tmhoauth",
+            "version": "0.8.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/themattharris/tmhOAuth.git",
+                "reference": "455552d6c57549632644b6c9ac9204766be2b5ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/themattharris/tmhOAuth/zipball/455552d6c57549632644b6c9ac9204766be2b5ee",
+                "reference": "455552d6c57549632644b6c9ac9204766be2b5ee",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "tmhOAuth": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "themattharris",
+                    "email": "matt@themattharris.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An OAuth library written in PHP by @themattharris",
+            "keywords": [
+                "oauth",
+                "twitter"
+            ],
+            "time": "2014-08-06T22:29:35+00:00"
+        },
+        {
+            "name": "thujohn/twitter",
+            "version": "2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thujohn/twitter.git",
+                "reference": "203d903856212835206675ae9c0504d74b681886"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thujohn/twitter/zipball/203d903856212835206675ae9c0504d74b681886",
+                "reference": "203d903856212835206675ae9c0504d74b681886",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.*|5.*",
+                "php": ">=5.5.0",
+                "themattharris/tmhoauth": "0.8.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Thujohn\\Twitter": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "thujohn",
+                    "email": "jonathan.thuau@gmail.com"
+                }
+            ],
+            "description": "Twitter API for Laravel",
+            "keywords": [
+                "laravel",
+                "laravel4",
+                "laravel5",
+                "twitter"
+            ],
+            "time": "2017-01-31T23:37:52+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",

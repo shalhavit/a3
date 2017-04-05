@@ -70,7 +70,7 @@
                 <div class="title m-b-md">
                     Twitter Inspector
                 </div>
-                <a href="/twitter-inspector">Begin</a>
+                <a href="/inspector">Begin</a>
             </div>
         </div>
     </body>
