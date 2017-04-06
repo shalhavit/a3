@@ -44,4 +44,16 @@ class InspectorController extends Controller {
     	return view('inspector', compact('data'));
     }
 
+    /**
+     * update the user twitter timeline.
+     *
+     * @return view
+     */
+    public function updateTwitterUserTimeline(Request $request) {
+        $data = Twitter::getUserTimeline(['count' => $request->input('numTweets'), 'format' => 'array']);
+    	return view('inspector', compact('data'))->with([
+            'numTweets' => $request->input('numTweets'),
+        ]);
+    }
+
 }

@@ -52,7 +52,21 @@
 
     <section id="getTweetsSection" class="col col-lg-12">
         <div class="row">
+
             <hr />
+
+            <div class="row text-center">
+                <form method='GET' action='/inspector'>
+
+                    <label for='numTweets'>Maximum number of tweets:</label>
+                    <input type='text' name='numTweets' id='numTweets' value='{{ $numTweets or '' }}'>
+
+                    <div class="row extra_padding_all">
+                        <input type='submit' class='btn btn-success' value="Update">
+                    </div>
+                </form>
+            </div>
+
             <table class="table">
                 <thead>
                     <tr>
