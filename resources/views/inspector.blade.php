@@ -1,17 +1,12 @@
 @extends('layouts.master')
 
 @section('content')
-    <div class="content row">
-        <div class="content row">
-            <div class="col-lg-12">
-                <header class="clearfix">
-                    <section class="text-center" id="a1header">
-                        <h1>Tweeter inspector 2</h1>
-                    </section>
-                </header>  <!-- header -->
-            </div>
-        </div>
-    </div> <!-- header -->
+
+    <div id="a1header" class="col-lg-12 text-center">
+        <header class="clearfix">
+            <h1>Tweeter inspector 2</h1>
+        </header>  <!-- header -->
+    </div>
 
     <section id="postTweetSection" class="col col-lg-8 col-lg-offset-2">
         <h2 class="text-center">@ShalhavitSimcha timeline</h2>
