@@ -10,39 +10,21 @@
 
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="../../public/css/custom.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
     </head>
 
     <body id="home">
-        <div class="content row">
-            <div class="content row">
-                <div class="col-lg-12">
-                    <header class="clearfix">
-                        <section class="text-center" id="a1header">
-                            <h1>Tweeter inspector 2</h1>
-                        </section>
-                    </header>  <!-- header -->
-                </div>
-            </div>
-        </div> <!-- header -->
 
         <section class="container">
             <div id="content" class="row">
-
-                {{-- <section id="main" class="col col-lg-12">
-                <h2 class="text-center">Last Tweets timeline</h2>
-                <div class="row"> --}}
-                        @yield('content')
-                {{-- </div>
-                </section> --}}
-
+                @yield('content')
             </div>
 
             <div class="footer-copyright">
-                <div class="text-center container-fluid">
+                <div class="text-center container-fluid extra_padding">
                     © 2017 :: <a href="http://a3.shalhavit.com"> Assignment 3</a>
                 </div>
             </div> <!-- Copyright-->

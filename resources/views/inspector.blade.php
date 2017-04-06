@@ -1,6 +1,17 @@
 @extends('layouts.master')
 
 @section('content')
+    <div class="content row">
+        <div class="content row">
+            <div class="col-lg-12">
+                <header class="clearfix">
+                    <section class="text-center" id="a1header">
+                        <h1>Tweeter inspector 2</h1>
+                    </section>
+                </header>  <!-- header -->
+            </div>
+        </div>
+    </div> <!-- header -->
 
     <section id="postTweetSection" class="col col-lg-8 col-lg-offset-2">
         <h2 class="text-center">Last Tweets timeline</h2>
@@ -31,7 +42,7 @@
                     <input type="file" name="images[]" multiple class="form-control">
                 </div>
 
-                <div class="form-group">
+                <div class="form-group text-center">
                     <button class="btn btn-success">Post New Tweet</button>
                 </div>
 
@@ -45,12 +56,12 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th width="50px">No</th>
-                        <th>Twitter Id</th>
-                        <th>Message</th>
-                        <th>Images</th>
-                        <th>Favorite</th>
-                        <th>Retweet</th>
+                        <th width="30px" class="text-center">No</th>
+                        <th class="text-center">Twitter Id</th>
+                        <th class="text-center">Message</th>
+                        <th class="text-center">Images</th>
+                        <th class="text-center">Favorite</th>
+                        <th class="text-center">Retweets</th>
                     </tr>
                 </thead>
 
@@ -69,8 +80,8 @@
                                     @endif
                                 </td>
 
-                                <td>{{ $value['favorite_count'] }}</td>
-                                <td>{{ $value['retweet_count'] }}</td>
+                                <td class="text-right">{{ $value['favorite_count'] }}</td>
+                                <td class="text-right">{{ $value['retweet_count'] }}</td>
                             </tr>
                         @endforeach
                     @else

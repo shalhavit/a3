@@ -44,5 +44,4 @@ class InspectorController extends Controller {
     	return view('inspector', compact('data'));
     }
 
-
 }
