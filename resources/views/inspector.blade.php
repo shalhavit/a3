@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label>Add Multiple Images:</label>
+                    <label>Add Image [< 1MB]:</label>
                     <input type="file" name="images[]" multiple class="form-control">
                 </div>
 
