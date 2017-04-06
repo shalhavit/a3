@@ -19,6 +19,4 @@ if(config('app.env') == 'local') {
 
 Route::get('/inspector', 'InspectorController@getTwitterUserTimeline');
 
-Route::get('/inspector', 'InspectorController@updateTwitterUserTimeline');
-
 Route::post('tweet', ['as'=>'post.tweet','uses'=>'InspectorController@postNewTweet']);

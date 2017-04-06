@@ -54,7 +54,7 @@
                 <form method='GET' action='/inspector'>
 
                     <label for='numTweets'>Maximum number of tweets:</label>
-                    <input type='number' min='1' max='20' name='numTweets' id='numTweets' value='{{ $numTweets or '12' }}' required>
+                    <input type='number' min='1' max='20' name='numTweets' id='numTweets' value='{{ $numTweets or '20' }}' required>
 
                     <div class="row extra_padding_all">
                         <input type='submit' class='btn btn-success' value="Update">
