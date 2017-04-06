@@ -48,3 +48,15 @@ html, body {
 .m-b-md {
     margin-bottom: 30px;
 }
+
+.img_b_padding {
+    padding-bottom: 10px;
+}
+
+.extra_padding {
+    padding-bottom: 20px;
+}
+
+.extra_padding_all {
+    padding: 20px;
+}

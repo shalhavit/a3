@@ -9,7 +9,7 @@
         </title>
 
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../../public/css/custom.css">
 
         <!-- Fonts -->
@@ -32,18 +32,21 @@
         <section class="container">
             <div id="content" class="row">
 
-                <section id="main" class="col col-lg-12">
-                    <h2 class="text-center">Last Tweets timeline</h2>
-                    <div class="row">
+                {{-- <section id="main" class="col col-lg-12">
+                <h2 class="text-center">Last Tweets timeline</h2>
+                <div class="row"> --}}
                         @yield('content')
-                    </div>
-                </section>
+                {{-- </div>
+                </section> --}}
 
             </div>
 
-            <div class="content row">
-                &copy; {{ date('Y') }}
-            </div> <!-- Footer -->
+            <div class="footer-copyright">
+                <div class="text-center container-fluid">
+                    © 2017 :: <a href="http://a3.shalhavit.com"> Assignment 3</a>
+                </div>
+            </div> <!-- Copyright-->
+
         </section>
 
         <!-- Latest compiled and minified JavaScript -->
