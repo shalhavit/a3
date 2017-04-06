@@ -65,7 +65,7 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th width="30px" class="text-center">No</th>
+                        <th class="text-center">No</th>
                         <th class="text-center">Twitter Id</th>
                         <th class="text-center">Message</th>
                         <th class="text-center">Images</th>
