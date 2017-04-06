@@ -47,7 +47,7 @@
 
     <section id="getTweetsSection" class="col col-lg-12">
         <hr />
-        <h2 class="text-center extra_padding">@ShalhavitSimcha</h2>
+        <h2 class="text-center extra_padding">@TheCoolSparkles</h2>
 
             <section id="sidebarTweetsSection" class="col col-lg-3">
                 <h3 class="text-center">Display Control</h3>
