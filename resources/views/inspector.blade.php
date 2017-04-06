@@ -49,7 +49,7 @@
         <hr />
         <h2 class="text-center extra_padding font-color">@ShalhavitSimcha timeline</h2>
 
-            <section id="getTweetsSection" class="col col-lg-3">
+            <section id="sidebarTweetsSection" class="col col-lg-3">
                 <div class="row text-center">
                     <form method='GET' action='/inspector'>
                         {{ csrf_field() }}
@@ -63,7 +63,7 @@
                 </div>
             </section>
 
-            <section id="getTweetsSection" class="col col-lg-9">
+            <section id="mainTweetsSection" class="col col-lg-9">
                 <div class="row">
                     <table class="table">
                         <thead>
