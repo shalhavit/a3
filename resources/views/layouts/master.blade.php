@@ -20,7 +20,7 @@
 
     <body id="home">
 
-        <section id="maincontainer" class="container">
+        <section class="container">
             <div id="content" class="row">
                 @yield('content')
             </div>
