@@ -47,9 +47,10 @@
 
     <section id="getTweetsSection" class="col col-lg-12">
         <hr />
-        <h2 class="text-center extra_padding font-color">@ShalhavitSimcha timeline</h2>
+        <h2 class="text-center extra_padding">@ShalhavitSimcha</h2>
 
             <section id="sidebarTweetsSection" class="col col-lg-3">
+                <h3 class="text-center">Display Control</h3>
                 <div class="row text-center">
                     <form method='GET' action='/inspector'>
                         {{ csrf_field() }}
@@ -64,6 +65,7 @@
             </section>
 
             <section id="mainTweetsSection" class="col col-lg-9">
+                <h3 class="text-center">Timeline</h3>
                 <div class="row">
                     <table class="table">
                         <thead>
