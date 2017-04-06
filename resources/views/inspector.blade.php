@@ -84,7 +84,7 @@
                                 <td>
                                     @if(!empty($value['extended_entities']['media']))
                                         @foreach($value['extended_entities']['media'] as $v)
-                                            <img src="{{ $v['media_url_https'] }}" style="width:100px;">
+                                            <img src="{{ $v['media_url_https'] }}" alt="{{ $value['id'] }}" style="width:100px;">
                                         @endforeach
                                     @endif
                                 </td>
