@@ -39,7 +39,7 @@ class InspectorController extends Controller {
      *
      * @return view
      */
-    public function getTwitterUserTimeline(Request $request) {
+    public function getTwitterUserTimeline(Request $request, $count = 20) {
 
         // The validation of multiple forms requires further research,
         // by now was validated with html5 rules
