@@ -14,7 +14,7 @@
     </div> <!-- header -->
 
     <section id="postTweetSection" class="col col-lg-8 col-lg-offset-2">
-        <h2 class="text-center">Last Tweets timeline</h2>
+        <h2 class="text-center">@ShalhavitSimcha timeline</h2>
         <div class="row">
 
             <form method="POST" action="{{ route('post.tweet') }}" enctype="multipart/form-data">
@@ -59,7 +59,7 @@
                 <form method='GET' action='/inspector'>
 
                     <label for='numTweets'>Maximum number of tweets:</label>
-                    <input type='text' name='numTweets' id='numTweets' value='{{ $numTweets or '' }}'>
+                    <input type='number' min='1' max='20' name='numTweets' id='numTweets' value='{{ $numTweets or '12' }}' required>
 
                     <div class="row extra_padding_all">
                         <input type='submit' class='btn btn-success' value="Update">

@@ -6,7 +6,7 @@
             <div class="title m-b-md">
                 Twitter Inspector
             </div>
-            <a href="/inspector">Begin</a>
+            <a href="inspector">Begin</a>
         </div>
     </div>
 @endsection

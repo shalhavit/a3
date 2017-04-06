@@ -14,6 +14,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
+
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
     </head>
 
     <body id="home">
@@ -32,6 +34,6 @@
         </section>
 
         <!-- Latest compiled and minified JavaScript -->
-        {{-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> --}}
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
 </html>

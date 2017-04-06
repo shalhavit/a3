@@ -15,7 +15,7 @@ class InspectorController extends Controller {
      */
     public function postNewTweet(Request $request) {
     	$this->validate($request, [
-            'tweet' => 'required'
+            'tweet' => 'required',
         ]);
 
     	$newTweet = ['status' => $request->tweet];
@@ -50,6 +50,14 @@ class InspectorController extends Controller {
      * @return view
      */
     public function updateTwitterUserTimeline(Request $request) {
+
+        // The validation of multiple forms requires further research,
+        // by now was validated with html5 rules
+
+        // $this->validate($request, [
+        //     'numTweets' => 'required | integer',
+        // ]);
+
         $data = Twitter::getUserTimeline(['count' => $request->input('numTweets'), 'format' => 'array']);
     	return view('inspector', compact('data'))->with([
             'numTweets' => $request->input('numTweets'),
