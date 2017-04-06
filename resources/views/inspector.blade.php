@@ -46,9 +46,9 @@
     </section>
 
     <section id="getTweetsSection" class="col col-lg-12">
+        <hr />
+        <h3 class="text-center">Display number of tweets</h3>
         <div class="row">
-
-            <hr />
 
             <div class="row text-center">
                 <form method='GET' action='/inspector'>
